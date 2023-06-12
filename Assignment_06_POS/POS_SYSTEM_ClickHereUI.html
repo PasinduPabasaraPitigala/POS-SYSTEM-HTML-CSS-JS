@@ -1,0 +1,1697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+
+    <style>
+
+        .Panel{
+            background-color: #E5DCCE;
+            border: 1px solid;
+            padding: 230px;
+            width: 610px;
+            height: 50Px;
+
+        }
+
+        #text1{
+            color: #000080;
+            position: absolute;
+            top: 45px;
+            bottom: 500px;
+            left: 600px;
+            right: 600px;
+            margin: auto;
+        }
+
+        #text2{
+            color: #000080;
+            position: absolute;
+            top: 45px;
+            bottom: 500px;
+            left: 900px;
+            right: 0px;
+            margin: auto;
+        }
+        #TB1{
+            height: 10px;
+            width: 70px;
+            position: absolute;
+            top: 55px;
+            bottom: 500px;
+            left: 300px;
+            right: 0px;
+            margin: auto;
+        }
+        #TB2{
+            height: 10px;
+            width: 70px;
+            position: absolute;
+            top: 55px;
+            bottom: 500px;
+            left: 900px;
+            right: 0px;
+            margin: auto;
+        }
+
+        #img1{
+            height: 450px;
+            width: 400px;
+            position: relative;
+            top: -200px;
+            bottom: 500px;
+            left: -180px;
+            right: 700px;
+            margin: auto;
+        }
+
+        #text3{
+            color: #000000;
+            position: absolute;
+            top: 70px;
+            bottom: 500px;
+            left: 800px;
+            right: 600px;
+            font-size: xxx-large;
+            margin: auto;
+        }
+
+        #text4{
+            color: #000000;
+            position: absolute;
+            top: 130px;
+            bottom: 500px;
+            left: 940px;
+            right: 600px;
+            font-size: xxx-large;
+            margin: auto;
+        }
+
+        #text5{
+            color: #000000;
+            position: absolute;
+            top: 200px;
+            bottom: 500px;
+            left: 850px;
+            right: 600px;
+            font-size: xxx-large;
+            margin: auto;
+        }
+
+        #text6{
+            color: #000000;
+            position: absolute;
+            top: 270px;
+            bottom: 500px;
+            left: 740px;
+            right: 600px;
+            font-size: xxx-large;
+            margin: auto;
+        }
+
+        #text7{
+            color: #000000;
+            position: absolute;
+            top: 270px;
+            bottom: 500px;
+            left: 850px;
+            right: 600px;
+            font-size: xxx-large;
+            margin: auto;
+
+        }
+
+        #TxtF1{
+            background-color: #40D09C;
+            color: #FFFFFF;
+            font-style: italic ;
+            position: absolute;
+            top: 370px;
+            bottom: 500px;
+            left: 700px;
+            right: 600px;
+            width: 300px;
+            height: 50px;
+            font-size: xx-large;
+            margin: auto;
+        }
+
+        #img2{
+            height: 150px;
+            width: 100px;
+            position: absolute;
+            top: 400px;
+            bottom: 0px;
+            left: 600px;
+            right: 10px;
+            margin: auto;
+        }
+
+        /*------------------------------------------------------------------------------------------------------------*/
+
+
+
+        .Panel2{
+            background-color: #E5DCCE;
+            border: 1px solid;
+            padding: 230px;
+            width: 610px;
+            height: 50Px;
+
+        }
+
+        #p2img1{
+            height: 430px;
+            width: 450px;
+            position: relative;
+            top: -180px;
+            bottom: 500px;
+            left: -200px;
+            right: 700px;
+            margin: auto;
+        }
+
+        #p2text1{
+            color: #000000;
+            position: relative;
+            top: -660px;
+            bottom: 500px;
+            left: -200px;
+            right: 0px;
+            font-size: xx-large;
+            font-style: italic;
+            margin: auto;
+        }
+
+        #p2text2{
+            color: #000000;
+            position: relative;
+            top: -650px;
+            bottom: 500px;
+            left: 400px;
+            right: 0px;
+            font-size: xx-large;
+            font-style: italic;
+            margin: auto;
+        }
+
+        #p2text3{
+            color: #000000;
+            position: relative;
+            top: -580px;
+            bottom: 500px;
+            left: 400px;
+            right: 0px;
+            font-size: xx-large;
+            font-style: italic;
+            margin: auto;
+        }
+
+        #p2TB1{
+            height: 30px;
+            width: 350px;
+            position: absolute;
+            top: 705px;
+            bottom: 500px;
+            left: 550px;
+            right: 0px;
+            margin: auto;
+        }
+
+        #p2TB2{
+            height: 30px;
+            width: 350px;
+            position: absolute;
+            top: 810px;
+            bottom: 500px;
+            left: 550px;
+            right: 0px;
+            margin: auto;
+        }
+
+        #p2text4{
+            color: #000000;
+            position: absolute;
+            top: -530px;
+            bottom: 500px;
+            left: 470px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+
+        #p2text5{
+            color: red;
+            position: relative;
+            top: -530px;
+            bottom: 500px;
+            left: 530px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+
+        #p2btn1{
+            background-color: lightgray;
+            color: red;
+            font-style: italic ;
+            position: absolute;
+            top: 850px;
+            bottom: 500px;
+            left: 940px;
+            right: 700px;
+            width: 50px;
+            height: 20px;
+            border-radius: 10px;
+            margin: auto;
+        }
+
+        #p2btn2{
+            background-color: #02B835;
+            color: #FFFFFF;
+            position: absolute;
+            top: 950px;
+            bottom: 0px;
+            left: 665px;
+            right: 600px;
+            width: 300px;
+            height: 50px;
+            border-radius: 10px;
+            font-size: xx-large;
+            margin: auto;
+        }
+
+    /* ========================================================================================================= */
+
+    .navi1{
+        background-color: #40D09C;
+        border: 1px solid #40D09C;
+        position: absolute;
+        padding: 50px;
+        height:5px;
+        width: 970px;
+        top:1180px ;
+        bottom: 0px;
+        left:10px ;
+        right: 10px;
+    }
+    .panel3{
+        background-color: #E5DCCE;
+        border: 1px solid;
+        padding: 230px;
+        width: 610px;
+        height: 50Px;
+    }
+
+    #p3img1{
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: -260px;
+        right: 700px;
+        margin: auto;
+    }
+
+    #p3text1{
+        color: white;
+        position: absolute;
+        top: 20px;
+        bottom: 500px;
+        left: 120px;
+        right: 0px;
+        margin: auto;
+        font-style: italic;
+    }
+
+        #p3text2{
+            color: white;
+            position: absolute;
+            top: 40px;
+            bottom: 500px;
+            left: 350px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+
+        #p3text3{
+            color: white;
+            position: absolute;
+            top: 40px;
+            bottom: 500px;
+            left: 500px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+
+        #p3text4{
+            color: white;
+            position: absolute;
+            top: 40px;
+            bottom: 500px;
+            left: 600px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p3btn1{
+            background-color: red;
+            color: #FFFFFF;
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            left: 900px;
+            right: 600px;
+            width: 125px;
+            height: 75px;
+            border-radius: 10px;
+            font-size: xx-large;
+            margin: auto;
+        }
+        #p3img2{
+            height: 35px;
+            width: 35px;
+            position: absolute;
+            top: 50px;
+            bottom: 0px;
+            left: 950px;
+            right: 700px;
+            margin: auto;
+        }
+        #p3text5{
+            color: midnightblue;
+            position: absolute;
+            top: 105px;
+            bottom: 500px;
+            left: 50px;
+            right: 0px;
+            margin: auto;
+            font-size: xx-large;
+            font-style: italic;
+        }
+        #p3text6{
+            color: #000000;
+            position: absolute;
+            top: 160px;
+            bottom: 500px;
+            left: 50px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p3TB1{
+            height: 20px;
+            width: 350px;
+            position: absolute;
+            top: 165px;
+            bottom: 500px;
+            left: -150px;
+            right: 0px;
+            margin: auto;
+        }
+        #p3btn2{
+            background-color: #52D4B5;
+            color: #FFFFFF;
+            position: absolute;
+            top: 165px;
+            bottom: 0px;
+            left: 650px;
+            right: 600px;
+            width: 150px;
+            height: 20px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p3btn2{
+            background-color: #52D4B5;
+            color: black;
+            position: absolute;
+            top: 165px;
+            bottom: 0px;
+            left: 650px;
+            right: 600px;
+            width: 150px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p3btn3{
+            background-color:#FCFF56 ;
+            color: black;
+            position: absolute;
+            top: 165px;
+            bottom: 0px;
+            left: 825px;
+            right: 600px;
+            width: 200px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p3text7{
+            color: #000000;
+            position: absolute;
+            top: 190px;
+            bottom: 500px;
+            left: 50px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p3text8{
+            color: #000000;
+            position: absolute;
+            top: 220px;
+            bottom: 500px;
+            left: 50px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p3text9{
+            color: #000000;
+            position: absolute;
+            top: 250px;
+            bottom: 500px;
+            left: 50px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p3text10{
+            color: #000000;
+            position: absolute;
+            top: 280px;
+            bottom: 500px;
+            left: 50px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p3TB2{
+            height: 20px;
+            width: 450px;
+            position: absolute;
+            top: 200px;
+            bottom: 500px;
+            left: -50px;
+            right: 0px;
+            margin: auto;
+        }
+        #p3TB3{
+            height: 20px;
+            width: 450px;
+            position: absolute;
+            top: 230px;
+            bottom: 500px;
+            left: -50px;
+            right: 0px;
+            margin: auto;
+        }
+        #p3TB4{
+            height: 20px;
+            width: 450px;
+            position: absolute;
+            top: 260px;
+            bottom: 500px;
+            left: -50px;
+            right: 0px;
+            margin: auto;
+        }
+        #p3TB5{
+            height: 20px;
+            width: 450px;
+            position: absolute;
+            top: 290px;
+            bottom: 500px;
+            left: -50px;
+            right: 0px;
+            margin: auto;
+        }
+
+        #p3btn4{
+            background-color:#79C2F8 ;
+            color: black;
+            position: absolute;
+            top: 210px;
+            bottom: 0px;
+            left: 840px;
+            right: 600px;
+            width: 170px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p3btn5{
+            background-color:#F54848 ;
+            color: black;
+            position: absolute;
+            top: 250px;
+            bottom: 0px;
+            left: 840px;
+            right: 600px;
+            width: 170px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p3btn6{
+            background-color:#F2C27A ;
+            color: black;
+            position: absolute;
+            top: 290px;
+            bottom: 0px;
+            left: 840px;
+            right: 600px;
+            width: 170px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #T1{
+            background-color:#F3EFEF ;
+            color: #F3EFEF;
+            position: absolute;
+            top: 400px;
+            bottom: 0px;
+            left: 40px;
+            right: 600px;
+            width: 1000px;
+            height: 60px;
+            border-radius: 2px;
+            margin: auto;
+        }
+        #Th1{
+            background-color:#52D4B5 ;
+            color: black;
+            border-radius: 2px;
+            margin: auto;
+        }
+        #Table1{
+            background-color:#F3EFEF ;
+            color: black;
+            border-radius: 2px;
+            margin: auto;
+        }
+/*==========================================================================================================================*/
+
+
+        .navi2{
+            background-color: #40D09C;
+            border: 1px solid #40D09C;
+            position: absolute;
+            padding: 50px;
+            height:5px;
+            width: 970px;
+            top:1765px ;
+            bottom: 0px;
+            left:10px ;
+            right: 10px;
+        }
+        .panel4{
+            background-color: #E5DCCE;
+            border: 1px solid;
+            padding: 230px;
+            width: 610px;
+            height: 50Px;
+        }
+
+        #p4img1{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            left: -260px;
+            right: 700px;
+            margin: auto;
+        }
+
+        #p4text1{
+            color: white;
+            position: absolute;
+            top: 20px;
+            bottom: 500px;
+            left: 120px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+
+        #p4text2{
+            color: white;
+            position: absolute;
+            top: 40px;
+            bottom: 500px;
+            left: 350px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+
+        #p4text3{
+            color:white;
+            position: absolute;
+            top: 40px;
+            bottom: 500px;
+            left: 500px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+
+        #p4text4{
+            color: white;
+            position: absolute;
+            top: 40px;
+            bottom: 500px;
+            left: 600px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p4btn1{
+            background-color: red;
+            color: #FFFFFF;
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            left: 900px;
+            right: 600px;
+            width: 125px;
+            height: 75px;
+            border-radius: 10px;
+            font-size: xx-large;
+            margin: auto;
+        }
+        #p4img2{
+            height: 35px;
+            width: 35px;
+            position: absolute;
+            top: 50px;
+            bottom: 0px;
+            left: 950px;
+            right: 700px;
+            margin: auto;
+        }
+        #p4text5{
+            color: midnightblue;
+            position: absolute;
+            top: 105px;
+            bottom: 500px;
+            left: 50px;
+            right: 0px;
+            margin: auto;
+            font-size: xx-large;
+            font-style: italic;
+        }
+        #p4text6{
+            color: #000000;
+            position: absolute;
+            top: 160px;
+            bottom: 500px;
+            left: 50px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p4TB1{
+            height: 20px;
+            width: 350px;
+            position: absolute;
+            top: 165px;
+            bottom: 500px;
+            left: -150px;
+            right: 0px;
+            margin: auto;
+        }
+        #p4btn2{
+            background-color: #52D4B5;
+            color: #FFFFFF;
+            position: absolute;
+            top: 165px;
+            bottom: 0px;
+            left: 650px;
+            right: 600px;
+            width: 150px;
+            height: 20px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p4btn2{
+            background-color: #52D4B5;
+            color: black;
+            position: absolute;
+            top: 165px;
+            bottom: 0px;
+            left: 650px;
+            right: 600px;
+            width: 150px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p4btn3{
+            background-color:#FCFF56 ;
+            color: black;
+            position: absolute;
+            top: 165px;
+            bottom: 0px;
+            left: 825px;
+            right: 600px;
+            width: 200px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p4text7{
+            color: #000000;
+            position: absolute;
+            top: 190px;
+            bottom: 500px;
+            left: 50px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p4text8{
+            color: #000000;
+            position: absolute;
+            top: 220px;
+            bottom: 500px;
+            left: 50px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p4text9{
+            color: #000000;
+            position: absolute;
+            top: 250px;
+            bottom: 500px;
+            left: 50px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p4text10{
+            color: #000000;
+            position: absolute;
+            top: 280px;
+            bottom: 500px;
+            left: 50px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p4TB2{
+            height: 20px;
+            width: 450px;
+            position: absolute;
+            top: 200px;
+            bottom: 500px;
+            left: -50px;
+            right: 0px;
+            margin: auto;
+        }
+        #p4TB3{
+            height: 20px;
+            width: 450px;
+            position: absolute;
+            top: 230px;
+            bottom: 500px;
+            left: -50px;
+            right: 0px;
+            margin: auto;
+        }
+        #p4TB4{
+            height: 20px;
+            width: 450px;
+            position: absolute;
+            top: 260px;
+            bottom: 500px;
+            left: -50px;
+            right: 0px;
+            margin: auto;
+        }
+        #p4TB5{
+            height: 20px;
+            width: 450px;
+            position: absolute;
+            top: 290px;
+            bottom: 500px;
+            left: -50px;
+            right: 0px;
+            margin: auto;
+        }
+
+        #p4btn4{
+            background-color:#79C2F8 ;
+            color: black;
+            position: absolute;
+            top: 210px;
+            bottom: 0px;
+            left: 840px;
+            right: 600px;
+            width: 170px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p4btn5{
+            background-color:#F54848 ;
+            color: black;
+            position: absolute;
+            top: 250px;
+            bottom: 0px;
+            left: 840px;
+            right: 600px;
+            width: 170px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p4btn6{
+            background-color:#F2C27A ;
+            color: black;
+            position: absolute;
+            top: 290px;
+            bottom: 0px;
+            left: 840px;
+            right: 600px;
+            width: 170px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #T2{
+            background-color:#F3EFEF ;
+            color: #F3EFEF;
+            position: absolute;
+            top: 400px;
+            bottom: 0px;
+            left: 40px;
+            right: 600px;
+            width: 1000px;
+            height: 60px;
+            border-radius: 2px;
+            margin: auto;
+        }
+        #Th2{
+            background-color:#52D4B5 ;
+            color: black;
+            border-radius: 2px;
+            margin: auto;
+        }
+        #Table2{
+            background-color:#F3EFEF ;
+            color: black;
+            border-radius: 2px;
+            margin: auto;
+        }
+
+        /*==========================================================================================================*/
+        .navi3{
+            background-color: #40D09C;
+            border: 1px solid #40D09C;
+            position: absolute;
+            padding: 50px;
+            height:5px;
+            width: 970px;
+            top:2350px ;
+            bottom: 0px;
+            left:10px ;
+            right: 10px;
+        }
+        .panel5{
+            background-color: #E5DCCE;
+            border: 1px solid;
+            padding: 230px;
+            width: 610px;
+            height: 50Px;
+        }
+
+        #p5img1{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            left: -260px;
+            right: 700px;
+            margin: auto;
+        }
+
+        #p5text1{
+            color: white;
+            position: absolute;
+            top: 20px;
+            bottom: 500px;
+            left: 120px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+
+        #p5text2{
+            color: white;
+            position: absolute;
+            top: 40px;
+            bottom: 500px;
+            left: 350px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+
+        #p5text3{
+            color: white;
+            position: absolute;
+            top: 40px;
+            bottom: 500px;
+            left: 500px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+
+        #p5text4{
+            color: white;
+            position: absolute;
+            top: 40px;
+            bottom: 500px;
+            left: 600px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5btn1{
+            background-color: red;
+            color: #FFFFFF;
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            left: 900px;
+            right: 600px;
+            width: 125px;
+            height: 75px;
+            border-radius: 10px;
+            font-size: xx-large;
+            margin: auto;
+        }
+        #p5img2{
+            height: 35px;
+            width: 35px;
+            position: absolute;
+            top: 50px;
+            bottom: 0px;
+            left: 950px;
+            right: 700px;
+            margin: auto;
+        }
+        #p5text5{
+            color: navy;
+            position: absolute;
+            top: 110px;
+            bottom: 500px;
+            left: 30px;
+            right: 0px;
+            margin: auto;
+            font-size: xx-large;
+            font-style: italic;
+        }
+        #p5text6{
+            color: #000000;
+            position: absolute;
+            top: 155px;
+            bottom: 500px;
+            left: 40px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5TB1{
+            height: 20px;
+            width: 250px;
+            position: absolute;
+            top: 165px;
+            bottom: 500px;
+            left: 0px;
+            right: 500px;
+            margin: auto;
+        }
+        #p5btn2{
+            background-color: #52D4B5;
+            color: #FFFFFF;
+            position: absolute;
+            top: 165px;
+            bottom: 0px;
+            left: 650px;
+            right: 600px;
+            width: 150px;
+            height: 20px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p5btn2{
+            background-color: forestgreen;
+            color: white;
+            position: absolute;
+            top: 165px;
+            bottom: 0px;
+            left: 0px;
+            right: 10px;
+            width: 170px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p5btn3{
+            background-color:yellowgreen ;
+            color: white;
+            position: absolute;
+            top: 165px;
+            bottom: 0px;
+            left: 350px;
+            right: 0px;
+            width: 130px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p5text7{
+            color: #000000;
+            position: absolute;
+            top: 190px;
+            bottom: 500px;
+            left: 40px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5text8{
+            color: #000000;
+            position: absolute;
+            top: 190px;
+            bottom: 500px;
+            left: 190px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5text9{
+            color: #000000;
+            position: absolute;
+            top: 190px;
+            bottom: 500px;
+            left: 340px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5text10{
+            color: #000000;
+            position: absolute;
+            top: 190px;
+            bottom: 500px;
+            left: 490px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5text11{
+            color: #000000;
+            position: absolute;
+            top: 260px;
+            bottom: 500px;
+            left: 40px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+
+        #p5text12{
+            color: #000000;
+            position: absolute;
+            top: 260px;
+            bottom: 500px;
+            left: 185px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5text13{
+            color: #000000;
+            position: absolute;
+            top: 260px;
+            bottom: 500px;
+            left: 335px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5text14{
+            color: #000000;
+            position: absolute;
+            top: 260px;
+            bottom: 500px;
+            left: 490px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5TB2{
+            height: 20px;
+            width: 120px;
+            position: absolute;
+            top: 230px;
+            bottom: 500px;
+            left: 0px;
+            right: 870px;
+            margin: auto;
+        }
+        #p5TB3{
+            height: 20px;
+            width: 120px;
+            position: absolute;
+            top: 230px;
+            bottom: 500px;
+            left: 0px;
+            right: 570px;
+            margin: auto;
+        }
+        #p5TB4{
+            height: 20px;
+            width: 120px;
+            position: absolute;
+            top: 230px;
+            bottom: 500px;
+            left: 0px;
+            right: 270px;
+            margin: auto;
+        }
+        #p5TB5{
+            height: 20px;
+            width: 120px;
+            position: absolute;
+            top: 230px;
+            bottom: 500px;
+            left: 0px;
+            right: -30px;
+            margin: auto;
+        }
+        #p5TB6{
+            height: 20px;
+            width: 120px;
+            position: absolute;
+            top: 300px;
+            bottom: 500px;
+            left: 0px;
+            right: 870px;
+            margin: auto;
+        }
+
+        #p5TB7{
+            height: 20px;
+            width: 120px;
+            position: absolute;
+            top: 300px;
+            bottom: 500px;
+            left: 0px;
+            right: 570px;
+            margin: auto;
+        }
+
+        #p5TB8{
+            height: 20px;
+            width: 120px;
+            position: absolute;
+            top: 300px;
+            bottom: 500px;
+            left: 0px;
+            right: 270px;
+            margin: auto;
+        }
+
+        #p5TB9{
+            height: 20px;
+            width: 120px;
+            position: absolute;
+            top: 300px;
+            bottom: 500px;
+            left: 0px;
+            right: -30px;
+            margin: auto;
+        }
+
+
+        #p5btn4{
+            background-color:darkcyan ;
+            color: white;
+            position: absolute;
+            top: 210px;
+            bottom: 0px;
+            left: 350px;
+            right: 0px;
+            width: 130px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p5btn5{
+            background-color:red ;
+            color: white;
+            position: absolute;
+            top: 250px;
+            bottom: 0px;
+            left: 350px;
+            right: 0px;
+            width: 130px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p5btn6{
+            background-color:peru;
+            color: white;
+            position: absolute;
+            top: 290px;
+            bottom: 0px;
+            left: 350px;
+            right: 0px;
+            width: 130px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p5TB10{
+            height: 40px;
+            width: 200px;
+            position: absolute;
+            top: 200px;
+            bottom: 500px;
+            left: 800px;
+            right: 0px;
+            margin: auto;
+        }
+        #p5TB11{
+            height: 40px;
+            width: 200px;
+            position: absolute;
+            top: 290px;
+            bottom: 500px;
+            left: 0px;
+            right: -800px;
+            margin: auto;
+        }
+
+        #p5text15{
+            color: #000000;
+            position: absolute;
+            top: 150px;
+            bottom: 500px;
+            left: 950px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5TB12{
+            height: 40px;
+            width: 200px;
+            position: absolute;
+            top: 425px;
+            bottom: 500px;
+            left: 0px;
+            right: -800px;
+            margin: auto;
+        }
+        #p5text16{
+            color: #000000;
+            position: absolute;
+            top: 240px;
+            bottom: 500px;
+            left: 910px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5btn7{
+            background-color:lawngreen;
+            color: black;
+            position: absolute;
+            top: 345px;
+            bottom: 0px;
+            left: 800px;
+            right: 0px;
+            width: 175px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p5text17{
+            color: #000000;
+            position: absolute;
+            top: 375px;
+            bottom: 500px;
+            left: 910px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5btn8{
+            background-color:crimson;
+            color: white;
+            position: absolute;
+            top: 470px;
+            bottom: 0px;
+            left: 800px;
+            right: 0px;
+            width: 175px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+
+
+        #T3{
+            background-color:lightseagreen;
+            color: #F3EFEF;
+            position: absolute;
+            top: 400px;
+            bottom: 0px;
+            left: 30px;
+            right: 600px;
+            width: 750px;
+            height: 60px;
+            border-radius: 2px;
+            margin: auto;
+        }
+        #Th3{
+            background-color:#52D4B5 ;
+            color: black;
+            border-radius: 2px;
+            margin: auto;
+        }
+        #Table3{
+            background-color:#F3EFEF ;
+            color: black;
+            border-radius: 2px;
+            margin: auto;
+        }
+
+
+    </style>
+</head>
+<body>
+<main>
+    <section>
+        <div>
+            <h4 id="text1">Date</h4>
+            <h4 id="text2">Time</h4>
+            <input id="TB1" class="inputBox" type="text" required="required">
+            <input id="TB2" class="inputBox" type="text" required="required">
+        </div>
+        <div class="Panel">
+            <img id="img1" src="assets/image/lovepik-young-women-go-shopping-and-choose-goods-in-picture_501805185.jpg">
+            <h1 id="text3">Welcome</h1>
+            <h1 id="text4">To</h1>
+            <h1 id="text5">Pitgala</h1>
+            <h1 id="text6">POS</h1>
+            <h1 id="text7">System</h1>
+            <button id="TxtF1"><i class="fa-sign-in-alt"> Click Here</i></button>
+            <img id="img2" src="assets/image/WhatsApp_Image_2023-04-27_at_13.04.31-removebg-preview (1).png">
+
+        </div>
+    </section>
+</main>
+
+<br>
+<br>
+<br>
+<br>
+
+<main>
+    <section>
+        <div class="Panel2">
+            <img id="p2img1" src="assets/image/5-common-questions-for-cashier-1024x683.jpg">
+            <h1 id="p2text1"><b>User Login</b></h1>
+            <h2 id="p2text2">Type Here User Name</h2>
+            <h2 id="p2text3">Type Here Password</h2>
+            <input id="p2TB1" class="inputBox" type="text" required="required">
+            <input id="p2TB2" class="inputBox" type="text" required="required">
+            <h3 id="p2text4">Forgot your Password Or UserName</h3>
+            <h4 id="p2text5">Click here to review hint</h4>
+            <button id="p2btn1"><i class="fa-sign-in-alt">click</i></button>
+            <button id="p2btn2"><i class="fa-sign-in-alt">Login</i></button>
+        </div>
+    </section>
+</main>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<main>
+    <section>
+
+        <div class="panel3">
+            <div class="navi1">
+                <img id="p3img1" src="assets/image/Blue and Gold Elegant Circle Floral Boutique Logo.png">
+                <h2 id="p3text1">POS <br> System</h2>
+                <h2 id="p3text2">Customer</h2>
+                <h2 id="p3text3">Item</h2>
+                <h2 id="p3text4">Order</h2>
+                <button id="p3btn1"><i class="fa-sign-in-alt">LogOut</i></button>
+                <img id="p3img2" src="assets/image/WhatsApp_Image_2023-04-27_at_13.04.31-removebg-preview (1).png">
+                <h2 id="p3text5">Customer...</h2>
+                <h2 id="p3text6">Search Customer:-</h2>
+                <input id="p3TB1" class="inputBox" type="text" required="required">
+                <button id="p3btn2"><i class="fa-sign-in-alt">Search</i></button>
+                <button id="p3btn3"><i class="fa-sign-in-alt">View All Customers</i></button>
+                <h2 id="p3text7">Customer ID</h2>
+                <h2 id="p3text8">Customer Name</h2>
+                <h2 id="p3text9">Customer Address</h2>
+                <h2 id="p3text10">Customer TelNumber</h2>
+                <input id="p3TB2" class="inputBox" type="text" required="required">
+                <input id="p3TB3" class="inputBox" type="text" required="required">
+                <input id="p3TB4" class="inputBox" type="text" required="required">
+                <input id="p3TB5" class="inputBox" type="text" required="required">
+                <button id="p3btn4"><i class="fa-sign-in-alt">Save</i></button>
+                <button id="p3btn5"><i class="fa-sign-in-alt">Delete</i></button>
+                <button id="p3btn6"><i class="fa-sign-in-alt">Update</i></button>
+
+                <table border="2" id="T1">
+                    <thead id="Th1">
+                    <th>Customer Id</th>
+                    <th>Customer Name</th>
+                    <th>Customer Email</th>
+                    <th>Customer Address</th>
+                    </thead>
+                    <tbody id="Table1">
+                    <tr>
+                        <td>C001</td>
+                        <td>Frimeshani</td>
+                        <td>Frime@Gmail.com</td>
+                        <td>Kalutara</td>
+                    </tr>
+                    <tr>
+                        <td>C002</td>
+                        <td>Pasindu</td>
+                        <td>Pasi@Gmail.com</td>
+                        <td>Kalutara</td>
+                    </tr>
+                    <tr>
+                        <td>C003</td>
+                        <td>Rashen</td>
+                        <td>Rashen@Gmail.com</td>
+                        <td>Kalutara</td>
+                    </tr>
+                    <tr>
+                        <td>C004</td>
+                        <td>Harshi</td>
+                        <td>Harshi@Gmail.com</td>
+                        <td>Kalutara</td>
+                    </tr>
+                    </tbody>
+                            </table>
+            </div>
+        </div>
+    </section>
+</main>
+<br>
+<br>
+<br>
+<br>
+
+
+<main>
+    <section>
+
+        <div class="panel4">
+            <div class="navi2">
+                <img id="p4img1" src="assets/image/Blue and Gold Elegant Circle Floral Boutique Logo.png">
+                <h2 id="p4text1">POS <br> System</h2>
+                <h2 id="p4text2">Customer</h2>
+                <h2 id="p4text3">Item</h2>
+                <h2 id="p4text4">Order</h2>
+                <button id="p4btn1"><i class="fa-sign-in-alt">LogOut</i></button>
+                <img id="p4img2" src="assets/image/WhatsApp_Image_2023-04-27_at_13.04.31-removebg-preview (1).png">
+                <h2 id="p4text5">Item...</h2>
+                <h2 id="p4text6">Search Item:-</h2>
+                <input id="p4TB1" class="inputBox" type="text" required="required">
+                <button id="p4btn2"><i class="fa-sign-in-alt">Search</i></button>
+                <button id="p4btn3"><i class="fa-sign-in-alt">View All Item</i></button>
+                <h2 id="p4text7">Item ID</h2>
+                <h2 id="p4text8">Item Name</h2>
+                <h2 id="p4text9">Item Qty</h2>
+                <h2 id="p4text10">Item Price</h2>
+                <input id="p4TB2" class="inputBox" type="text" required="required">
+                <input id="p4TB3" class="inputBox" type="text" required="required">
+                <input id="p4TB4" class="inputBox" type="text" required="required">
+                <input id="p4TB5" class="inputBox" type="text" required="required">
+                <button id="p4btn4"><i class="fa-sign-in-alt">Save</i></button>
+                <button id="p4btn5"><i class="fa-sign-in-alt">Delete</i></button>
+                <button id="p4btn6"><i class="fa-sign-in-alt">Update</i></button>
+
+                <table border="2" id="T2">
+                    <thead id="Th2">
+                    <th>Item Id</th>
+                    <th>Item Name</th>
+                    <th>Item Qty</th>
+                    <th>Item Price</th>
+                    </thead>
+                    <tbody id="Table2">
+                    <tr>
+                        <td>I001</td>
+                        <td>Samba</td>
+                        <td>50kg</td>
+                        <td>200.00</td>
+                    </tr>
+                    <tr>
+                        <td>I002</td>
+                        <td>Dhal</td>
+                        <td>50kg</td>
+                        <td>260.00</td>
+                    </tr>
+                    <tr>
+                        <td>I003</td>
+                        <td>Sugar</td>
+                        <td>20kg</td>
+                        <td>290.00</td>
+                    </tr>
+                    <tr>
+                        <td>I004</td>
+                        <td>Milk Powder</td>
+                        <td>28</td>
+                        <td>1160.00</td>
+                    </tr>
+                    </tbody>
+                            </table>
+            </div>
+        </div>
+    </section>
+</main>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<main>
+    <section>
+        <div class="panel5">
+            <div class="navi3">
+                <img id="p5img1" src="assets/image/Blue and Gold Elegant Circle Floral Boutique Logo.png">
+                <h2 id="p5text1">POS <br> System</h2>
+                <h2 id="p5text2">Customer</h2>
+                <h2 id="p5text3">Item</h2>
+                <h2 id="p5text4">Order</h2>
+                <button id="p5btn1"><i class="fa-sign-in-alt">LogOut</i></button>
+                <img id="p5img2" src="assets/image/WhatsApp_Image_2023-04-27_at_13.04.31-removebg-preview (1).png">
+                <h2 id="p5text5">Place Order...</h2>
+
+                <h3 id="p5text6">Order ID</h3>
+                <input id="p5TB1" class="inputBox" type="text" required="required">
+
+                <h3 id="p5text7">Item ID</h3>
+                <h3 id="p5text8">Item Name</h3>
+                <h3 id="p5text9">Item Qty</h3>
+                <h3 id="p5text10">Item Price</h3>
+                <input id="p5TB2" class="inputBox" type="text" required="required">
+                <input id="p5TB3" class="inputBox" type="text" required="required">
+                <input id="p5TB4" class="inputBox" type="text" required="required">
+                <input id="p5TB5" class="inputBox" type="text" required="required">
+
+                <h3 id="p5text11">Customer ID</h3>
+                <h3 id="p5text12">Customer Name</h3>
+                <h3 id="p5text13">Customer Qty</h3>
+                <h3 id="p5text14">Customer Price</h3>
+                <input id="p5TB6" class="inputBox" type="text" required="required">
+                <input id="p5TB7" class="inputBox" type="text" required="required">
+                <input id="p5TB8" class="inputBox" type="text" required="required">
+                <input id="p5TB9" class="inputBox" type="text" required="required">
+
+                <button id="p5btn2"><i class="fa-sign-in-alt">Search</i></button>
+                <button id="p5btn3"><i class="fa-sign-in-alt">View All Item</i></button>
+
+                <button id="p5btn4"><i class="fa-sign-in-alt">Save</i></button>
+                <button id="p5btn5"><i class="fa-sign-in-alt">Delete</i></button>
+                <button id="p5btn6"><i class="fa-sign-in-alt">Update</i></button>
+
+                <h1 id="p5text15">TOTAL :</h1>
+                <input id="p5TB10" class="inputBox" type="text" required="required">
+                <h1 id="p5text16">PAYMENT :</h1>
+                <input id="p5TB11" class="inputBox" type="text" required="required">
+                <button id="p5btn7"><i class="fa-sign-in-alt">Purchase</i></button>
+                <h1 id="p5text17">BALANCE :</h1>
+                <input id="p5TB12" class="inputBox" type="text" required="required">
+                <button id="p5btn8"><i class="fa-sign-in-alt">Close Order</i></button>
+
+                <table border="2" id="T3">
+                    <thead id="Th3">
+                    <th>Item Id</th>
+                    <th>Item Name</th>
+                    <th>Item Qty</th>
+                    <th>Item Price</th>
+                    </thead>
+                    <tbody id="Table3">
+                    <tr>
+                        <td>I001</td>
+                        <td>Samba</td>
+                        <td>50kg</td>
+                        <td>200.00</td>
+                    </tr>
+                    <tr>
+                        <td>I002</td>
+                        <td>Dhal</td>
+                        <td>50kg</td>
+                        <td>260.00</td>
+                    </tr>
+                    <tr>
+                        <td>I003</td>
+                        <td>Sugar</td>
+                        <td>20kg</td>
+                        <td>290.00</td>
+                    </tr>
+                    <tr>
+                        <td>I004</td>
+                        <td>Milk Powder</td>
+                        <td>28</td>
+                        <td>1160.00</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</main>
+
+</body>
+</html>

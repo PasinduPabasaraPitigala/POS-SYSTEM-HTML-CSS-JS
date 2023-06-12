@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Place Order</title>
+    <style>
+        .navi3{
+            background-color: #40D09C;
+            border: 1px solid #40D09C;
+            position: absolute;
+            padding: 50px;
+            height:5px;
+            width: 970px;
+            top:10px ;
+            bottom: 0px;
+            left:10px ;
+            right: 10px;
+        }
+        .panel5{
+            background-color: #E5DCCE;
+            border: 1px solid;
+            padding: 230px;
+            width: 610px;
+            height: 50Px;
+        }
+
+        #p5img1{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            left: -260px;
+            right: 700px;
+            margin: auto;
+        }
+
+        #p5text1{
+            color: white;
+            position: absolute;
+            top: 20px;
+            bottom: 500px;
+            left: 120px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+
+        #p5text2{
+            color: white;
+            position: absolute;
+            top: 40px;
+            bottom: 500px;
+            left: 350px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+
+        #p5text3{
+            color: white;
+            position: absolute;
+            top: 40px;
+            bottom: 500px;
+            left: 500px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+
+        #p5text4{
+            color: white;
+            position: absolute;
+            top: 40px;
+            bottom: 500px;
+            left: 600px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5btn1{
+            background-color: red;
+            color: #FFFFFF;
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            left: 900px;
+            right: 600px;
+            width: 125px;
+            height: 75px;
+            border-radius: 10px;
+            font-size: xx-large;
+            margin: auto;
+        }
+        #p5img2{
+            height: 35px;
+            width: 35px;
+            position: absolute;
+            top: 50px;
+            bottom: 0px;
+            left: 950px;
+            right: 700px;
+            margin: auto;
+        }
+        #p5text5{
+            color: navy;
+            position: absolute;
+            top: 110px;
+            bottom: 500px;
+            left: 30px;
+            right: 0px;
+            margin: auto;
+            font-size: xx-large;
+            font-style: italic;
+        }
+        #p5text6{
+            color: #000000;
+            position: absolute;
+            top: 155px;
+            bottom: 500px;
+            left: 40px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5TB1{
+            height: 20px;
+            width: 250px;
+            position: absolute;
+            top: 165px;
+            bottom: 500px;
+            left: 0px;
+            right: 500px;
+            margin: auto;
+        }
+        #p5btn2{
+            background-color: #52D4B5;
+            color: #FFFFFF;
+            position: absolute;
+            top: 165px;
+            bottom: 0px;
+            left: 650px;
+            right: 600px;
+            width: 150px;
+            height: 20px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p5btn2{
+            background-color: forestgreen;
+            color: white;
+            position: absolute;
+            top: 165px;
+            bottom: 0px;
+            left: 0px;
+            right: 10px;
+            width: 170px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p5btn3{
+            background-color:yellowgreen ;
+            color: white;
+            position: absolute;
+            top: 165px;
+            bottom: 0px;
+            left: 350px;
+            right: 0px;
+            width: 130px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p5text7{
+            color: #000000;
+            position: absolute;
+            top: 190px;
+            bottom: 500px;
+            left: 40px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5text8{
+            color: #000000;
+            position: absolute;
+            top: 190px;
+            bottom: 500px;
+            left: 190px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5text9{
+            color: #000000;
+            position: absolute;
+            top: 190px;
+            bottom: 500px;
+            left: 340px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5text10{
+            color: #000000;
+            position: absolute;
+            top: 190px;
+            bottom: 500px;
+            left: 490px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5text11{
+            color: #000000;
+            position: absolute;
+            top: 260px;
+            bottom: 500px;
+            left: 40px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+
+        #p5text12{
+            color: #000000;
+            position: absolute;
+            top: 260px;
+            bottom: 500px;
+            left: 185px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5text13{
+            color: #000000;
+            position: absolute;
+            top: 260px;
+            bottom: 500px;
+            left: 335px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5text14{
+            color: #000000;
+            position: absolute;
+            top: 260px;
+            bottom: 500px;
+            left: 490px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5TB2{
+            height: 20px;
+            width: 120px;
+            position: absolute;
+            top: 230px;
+            bottom: 500px;
+            left: 0px;
+            right: 870px;
+            margin: auto;
+        }
+        #p5TB3{
+            height: 20px;
+            width: 120px;
+            position: absolute;
+            top: 230px;
+            bottom: 500px;
+            left: 0px;
+            right: 570px;
+            margin: auto;
+        }
+        #p5TB4{
+            height: 20px;
+            width: 120px;
+            position: absolute;
+            top: 230px;
+            bottom: 500px;
+            left: 0px;
+            right: 270px;
+            margin: auto;
+        }
+        #p5TB5{
+            height: 20px;
+            width: 120px;
+            position: absolute;
+            top: 230px;
+            bottom: 500px;
+            left: 0px;
+            right: -30px;
+            margin: auto;
+        }
+        #p5TB6{
+            height: 20px;
+            width: 120px;
+            position: absolute;
+            top: 300px;
+            bottom: 500px;
+            left: 0px;
+            right: 870px;
+            margin: auto;
+        }
+
+        #p5TB7{
+            height: 20px;
+            width: 120px;
+            position: absolute;
+            top: 300px;
+            bottom: 500px;
+            left: 0px;
+            right: 570px;
+            margin: auto;
+        }
+
+        #p5TB8{
+            height: 20px;
+            width: 120px;
+            position: absolute;
+            top: 300px;
+            bottom: 500px;
+            left: 0px;
+            right: 270px;
+            margin: auto;
+        }
+
+        #p5TB9{
+            height: 20px;
+            width: 120px;
+            position: absolute;
+            top: 300px;
+            bottom: 500px;
+            left: 0px;
+            right: -30px;
+            margin: auto;
+        }
+
+
+        #p5btn4{
+            background-color:darkcyan ;
+            color: white;
+            position: absolute;
+            top: 210px;
+            bottom: 0px;
+            left: 350px;
+            right: 0px;
+            width: 130px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p5btn5{
+            background-color:red ;
+            color: white;
+            position: absolute;
+            top: 250px;
+            bottom: 0px;
+            left: 350px;
+            right: 0px;
+            width: 130px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p5btn6{
+            background-color:peru;
+            color: white;
+            position: absolute;
+            top: 290px;
+            bottom: 0px;
+            left: 350px;
+            right: 0px;
+            width: 130px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p5TB10{
+            height: 40px;
+            width: 200px;
+            position: absolute;
+            top: 200px;
+            bottom: 500px;
+            left: 800px;
+            right: 0px;
+            margin: auto;
+        }
+        #p5TB11{
+            height: 40px;
+            width: 200px;
+            position: absolute;
+            top: 290px;
+            bottom: 500px;
+            left: 0px;
+            right: -800px;
+            margin: auto;
+        }
+
+        #p5text15{
+            color: #000000;
+            position: absolute;
+            top: 150px;
+            bottom: 500px;
+            left: 950px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5TB12{
+            height: 40px;
+            width: 200px;
+            position: absolute;
+            top: 425px;
+            bottom: 500px;
+            left: 0px;
+            right: -800px;
+            margin: auto;
+        }
+        #p5text16{
+            color: #000000;
+            position: absolute;
+            top: 240px;
+            bottom: 500px;
+            left: 910px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5btn7{
+            background-color:lawngreen;
+            color: black;
+            position: absolute;
+            top: 345px;
+            bottom: 0px;
+            left: 800px;
+            right: 0px;
+            width: 175px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p5text17{
+            color: #000000;
+            position: absolute;
+            top: 375px;
+            bottom: 500px;
+            left: 910px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p5btn8{
+            background-color:crimson;
+            color: white;
+            position: absolute;
+            top: 470px;
+            bottom: 0px;
+            left: 800px;
+            right: 0px;
+            width: 175px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+
+
+        #T3{
+            background-color:lightseagreen;
+            color: #F3EFEF;
+            position: absolute;
+            top: 400px;
+            bottom: 0px;
+            left: 30px;
+            right: 600px;
+            width: 750px;
+            height: 60px;
+            border-radius: 2px;
+            margin: auto;
+        }
+        #Th3{
+            background-color:#52D4B5 ;
+            color: black;
+            border-radius: 2px;
+            margin: auto;
+        }
+        #Table3{
+            background-color:#F3EFEF ;
+            color: black;
+            border-radius: 2px;
+            margin: auto;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<main>
+    <section>
+        <div class="panel5">
+            <div class="navi3">
+                <img id="p5img1" src="assets/image/Blue and Gold Elegant Circle Floral Boutique Logo.png">
+                <h2 id="p5text1">POS <br> System</h2>
+                <h2 id="p5text2">Customer</h2>
+                <h2 id="p5text3">Item</h2>
+                <h2 id="p5text4">Order</h2>
+                <button id="p5btn1"><i class="fa-sign-in-alt">LogOut</i></button>
+                <img id="p5img2" src="assets/image/WhatsApp_Image_2023-04-27_at_13.04.31-removebg-preview (1).png">
+                <h2 id="p5text5">Place Order...</h2>
+
+                <h3 id="p5text6">Order ID</h3>
+                <input id="p5TB1" class="inputBox" type="text" required="required">
+
+                <h3 id="p5text7">Item ID</h3>
+                <h3 id="p5text8">Item Name</h3>
+                <h3 id="p5text9">Item Qty</h3>
+                <h3 id="p5text10">Item Price</h3>
+                <input id="p5TB2" class="inputBox" type="text" required="required">
+                <input id="p5TB3" class="inputBox" type="text" required="required">
+                <input id="p5TB4" class="inputBox" type="text" required="required">
+                <input id="p5TB5" class="inputBox" type="text" required="required">
+
+                <h3 id="p5text11">Customer ID</h3>
+                <h3 id="p5text12">Customer Name</h3>
+                <h3 id="p5text13">Customer Qty</h3>
+                <h3 id="p5text14">Customer Price</h3>
+                <input id="p5TB6" class="inputBox" type="text" required="required">
+                <input id="p5TB7" class="inputBox" type="text" required="required">
+                <input id="p5TB8" class="inputBox" type="text" required="required">
+                <input id="p5TB9" class="inputBox" type="text" required="required">
+
+                <button id="p5btn2"><i class="fa-sign-in-alt">Search</i></button>
+                <button id="p5btn3"><i class="fa-sign-in-alt">View All Item</i></button>
+
+                <button id="p5btn4"><i class="fa-sign-in-alt">Save</i></button>
+                <button id="p5btn5"><i class="fa-sign-in-alt">Delete</i></button>
+                <button id="p5btn6"><i class="fa-sign-in-alt">Update</i></button>
+
+                <h1 id="p5text15">TOTAL :</h1>
+                <input id="p5TB10" class="inputBox" type="text" required="required">
+                <h1 id="p5text16">PAYMENT :</h1>
+                <input id="p5TB11" class="inputBox" type="text" required="required">
+                <button id="p5btn7"><i class="fa-sign-in-alt">Purchase</i></button>
+                <h1 id="p5text17">BALANCE :</h1>
+                <input id="p5TB12" class="inputBox" type="text" required="required">
+                <button id="p5btn8"><i class="fa-sign-in-alt">Close Order</i></button>
+
+                <table border="2" id="T3">
+                    <thead id="Th3">
+                    <th>Item Id</th>
+                    <th>Item Name</th>
+                    <th>Item Qty</th>
+                    <th>Item Price</th>
+                    </thead>
+                    <tbody id="Table3">
+                    <tr>
+                        <td>I001</td>
+                        <td>Samba</td>
+                        <td>50kg</td>
+                        <td>200.00</td>
+                    </tr>
+                    <tr>
+                        <td>I002</td>
+                        <td>Dhal</td>
+                        <td>50kg</td>
+                        <td>260.00</td>
+                    </tr>
+                    <tr>
+                        <td>I003</td>
+                        <td>Sugar</td>
+                        <td>20kg</td>
+                        <td>290.00</td>
+                    </tr>
+                    <tr>
+                        <td>I004</td>
+                        <td>Milk Powder</td>
+                        <td>28</td>
+                        <td>1160.00</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</main>
+
+</body>
+</html>

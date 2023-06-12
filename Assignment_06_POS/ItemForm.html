@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Item FORM</title>
+    <style>
+
+        .navi2{
+            background-color: #40D09C;
+            border: 1px solid #40D09C;
+            position: absolute;
+            padding: 50px;
+            height:5px;
+            width: 970px;
+            top:10px ;
+            bottom: 0px;
+            left:10px ;
+            right: 10px;
+        }
+        .panel4{
+            background-color: #E5DCCE;
+            border: 1px solid;
+            padding: 230px;
+            width: 610px;
+            height: 50Px;
+        }
+
+        #p4img1{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            left: -260px;
+            right: 700px;
+            margin: auto;
+        }
+
+        #p4text1{
+            color: #000000;
+            position: absolute;
+            top: 20px;
+            bottom: 500px;
+            left: 120px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+
+        #p4text2{
+            color: #000000;
+            position: absolute;
+            top: 40px;
+            bottom: 500px;
+            left: 350px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+
+        #p4text3{
+            color: #000000;
+            position: absolute;
+            top: 40px;
+            bottom: 500px;
+            left: 500px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+
+        #p4text4{
+            color: #000000;
+            position: absolute;
+            top: 40px;
+            bottom: 500px;
+            left: 600px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p4btn1{
+            background-color: red;
+            color: #FFFFFF;
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            left: 900px;
+            right: 600px;
+            width: 125px;
+            height: 75px;
+            border-radius: 10px;
+            font-size: xx-large;
+            margin: auto;
+        }
+        #p4img2{
+            height: 35px;
+            width: 35px;
+            position: absolute;
+            top: 50px;
+            bottom: 0px;
+            left: 950px;
+            right: 700px;
+            margin: auto;
+        }
+        #p4text5{
+            color: #000000;
+            position: absolute;
+            top: 105px;
+            bottom: 500px;
+            left: 50px;
+            right: 0px;
+            margin: auto;
+            font-size: xx-large;
+            font-style: italic;
+        }
+        #p4text6{
+            color: #000000;
+            position: absolute;
+            top: 160px;
+            bottom: 500px;
+            left: 50px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p4TB1{
+            height: 20px;
+            width: 350px;
+            position: absolute;
+            top: 165px;
+            bottom: 500px;
+            left: -150px;
+            right: 0px;
+            margin: auto;
+        }
+        #p4btn2{
+            background-color: #52D4B5;
+            color: #FFFFFF;
+            position: absolute;
+            top: 165px;
+            bottom: 0px;
+            left: 650px;
+            right: 600px;
+            width: 150px;
+            height: 20px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p4btn2{
+            background-color: #52D4B5;
+            color: black;
+            position: absolute;
+            top: 165px;
+            bottom: 0px;
+            left: 650px;
+            right: 600px;
+            width: 150px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p4btn3{
+            background-color:#FCFF56 ;
+            color: black;
+            position: absolute;
+            top: 165px;
+            bottom: 0px;
+            left: 825px;
+            right: 600px;
+            width: 200px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p4text7{
+            color: #000000;
+            position: absolute;
+            top: 190px;
+            bottom: 500px;
+            left: 50px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p4text8{
+            color: #000000;
+            position: absolute;
+            top: 220px;
+            bottom: 500px;
+            left: 50px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p4text9{
+            color: #000000;
+            position: absolute;
+            top: 250px;
+            bottom: 500px;
+            left: 50px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p4text10{
+            color: #000000;
+            position: absolute;
+            top: 280px;
+            bottom: 500px;
+            left: 50px;
+            right: 0px;
+            margin: auto;
+            font-style: italic;
+        }
+        #p4TB2{
+            height: 20px;
+            width: 450px;
+            position: absolute;
+            top: 200px;
+            bottom: 500px;
+            left: -50px;
+            right: 0px;
+            margin: auto;
+        }
+        #p4TB3{
+            height: 20px;
+            width: 450px;
+            position: absolute;
+            top: 230px;
+            bottom: 500px;
+            left: -50px;
+            right: 0px;
+            margin: auto;
+        }
+        #p4TB4{
+            height: 20px;
+            width: 450px;
+            position: absolute;
+            top: 260px;
+            bottom: 500px;
+            left: -50px;
+            right: 0px;
+            margin: auto;
+        }
+        #p4TB5{
+            height: 20px;
+            width: 450px;
+            position: absolute;
+            top: 290px;
+            bottom: 500px;
+            left: -50px;
+            right: 0px;
+            margin: auto;
+        }
+
+        #p4btn4{
+            background-color:#79C2F8 ;
+            color: black;
+            position: absolute;
+            top: 210px;
+            bottom: 0px;
+            left: 840px;
+            right: 600px;
+            width: 170px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p4btn5{
+            background-color:#F54848 ;
+            color: black;
+            position: absolute;
+            top: 250px;
+            bottom: 0px;
+            left: 840px;
+            right: 600px;
+            width: 170px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #p4btn6{
+            background-color:#F2C27A ;
+            color: black;
+            position: absolute;
+            top: 290px;
+            bottom: 0px;
+            left: 840px;
+            right: 600px;
+            width: 170px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        #T2{
+            background-color:#F3EFEF ;
+            color: #F3EFEF;
+            position: absolute;
+            top: 400px;
+            bottom: 0px;
+            left: 40px;
+            right: 600px;
+            width: 1000px;
+            height: 60px;
+            border-radius: 2px;
+            margin: auto;
+        }
+        #Th2{
+            background-color:#52D4B5 ;
+            color: black;
+            border-radius: 2px;
+            margin: auto;
+        }
+        #Table2{
+            background-color:#F3EFEF ;
+            color: black;
+            border-radius: 2px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <section>
+        <div class="panel4">
+            <div class="navi2">
+                <img id="p4img1" src="assets/image/Blue and Gold Elegant Circle Floral Boutique Logo.png">
+                <h2 id="p4text1">POS <br> System</h2>
+                <h2 id="p4text2">Customer</h2>
+                <h2 id="p4text3">Item</h2>
+                <h2 id="p4text4">Order</h2>
+                <button id="p4btn1"><i class="fa-sign-in-alt">LogOut</i></button>
+                <img id="p4img2" src="assets/image/WhatsApp_Image_2023-04-27_at_13.04.31-removebg-preview (1).png">
+                <h2 id="p4text5">Item...</h2>
+                <h2 id="p4text6">Search Item:-</h2>
+                <input id="p4TB1" class="inputBox" type="text" required="required">
+                <button id="p4btn2"><i class="fa-sign-in-alt">Search</i></button>
+                <button id="p4btn3"><i class="fa-sign-in-alt">View All Item</i></button>
+                <h2 id="p4text7">Item ID</h2>
+                <h2 id="p4text8">Item Name</h2>
+                <h2 id="p4text9">Item Qty</h2>
+                <h2 id="p4text10">Item Price</h2>
+                <input id="p4TB2" class="inputBox" type="text" required="required">
+                <input id="p4TB3" class="inputBox" type="text" required="required">
+                <input id="p4TB4" class="inputBox" type="text" required="required">
+                <input id="p4TB5" class="inputBox" type="text" required="required">
+                <button id="p4btn4"><i class="fa-sign-in-alt">Save</i></button>
+                <button id="p4btn5"><i class="fa-sign-in-alt">Delete</i></button>
+                <button id="p4btn6"><i class="fa-sign-in-alt">Update</i></button>
+
+                <table border="2" id="T2">
+                    <thead id="Th2">
+                    <th>Item Id</th>
+                    <th>Item Name</th>
+                    <th>Item Qty</th>
+                    <th>Item Price</th>
+                    </thead>
+                    <tbody id="Table2">
+                    <tr>
+                        <td>I001</td>
+                        <td>Samba</td>
+                        <td>50kg</td>
+                        <td>200.00</td>
+                    </tr>
+                    <tr>
+                        <td>I002</td>
+                        <td>Dhal</td>
+                        <td>50kg</td>
+                        <td>260.00</td>
+                    </tr>
+                    <tr>
+                        <td>I003</td>
+                        <td>Sugar</td>
+                        <td>20kg</td>
+                        <td>290.00</td>
+                    </tr>
+                    <tr>
+                        <td>I004</td>
+                        <td>Milk Powder</td>
+                        <td>28</td>
+                        <td>1160.00</td>
+                    </tr>
+                    </tbody>
+                            </table>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>
