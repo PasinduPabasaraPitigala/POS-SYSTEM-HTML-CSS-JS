@@ -363,7 +363,7 @@ $('#p4btn6').on('click',(event)=>{
     let item_data_arr =JSON.parse(pre_data);
 
     console.log(item_data_arr)
-    let index = item_data_arr.findIndex((value) => value._CustomerId===CustomerId);
+    let index = item_data_arr.findIndex((value) => value._ItemId===ItemId);
     console.log(index);
     if (index > -1){
         console.log(item_data_arr[index]);
